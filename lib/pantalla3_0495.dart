@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
 
 class Pantalla3_0495 extends StatelessWidget {
   const Pantalla3_0495({Key? key}) : super(key: key);
@@ -15,6 +16,7 @@ class Pantalla3_0495 extends StatelessWidget {
           color: Color(0xff558ec1),
           width: 300,
           height: 300,
+          transform: Matrix4.rotationZ((math.pi / 180) * 20),
           child: Text(
             'Lopez Ejemplo version 2',
             style: TextStyle(fontSize: 30),
