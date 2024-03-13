@@ -11,7 +11,7 @@ class Pantalla1_0495 extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          color: Color(0xff71319d),
+          color: Color(0xffcb7dfe),
           width: 300,
           height: 300,
           padding: EdgeInsets.all(32),
@@ -19,7 +19,7 @@ class Pantalla1_0495 extends StatelessWidget {
           alignment: Alignment.center,
           child: Text(
             'Lopez Ejemplo version 2',
-            style: TextStyle(fontSize: 30),
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),

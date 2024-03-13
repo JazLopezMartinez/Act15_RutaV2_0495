@@ -21,7 +21,7 @@ class Pantalla2_0495 extends StatelessWidget {
           ),
           child: Text(
             'Lopez Ejemplo version 2',
-            style: TextStyle(fontSize: 30),
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),

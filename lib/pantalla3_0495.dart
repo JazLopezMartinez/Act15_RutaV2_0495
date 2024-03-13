@@ -9,17 +9,17 @@ class Pantalla3_0495 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Pantalla3 Lopez_0495"),
-        backgroundColor: Color(0xff4ad785),
+        backgroundColor: Color(0xff2cae62),
       ),
       body: Center(
         child: Container(
-          color: Color(0xff558ec1),
+          color: Color(0xff4f7fad),
           width: 300,
           height: 300,
           transform: Matrix4.rotationZ((math.pi / 180) * 20),
           child: Text(
-            'Lopez Ejemplo version 2',
-            style: TextStyle(fontSize: 30),
+            'Lopez Ejemplo version 2 rutas',
+            style: TextStyle(fontSize: 30, color: Color(0xffeffff0)),
           ),
         ),
       ),

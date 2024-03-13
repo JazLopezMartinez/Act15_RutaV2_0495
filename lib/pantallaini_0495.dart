@@ -34,8 +34,8 @@ class Pantallainicio_0495 extends StatelessWidget {
                 child: const Text("Ir a la segunda pantalla")),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Color(0xff2b6bb5), // background
-                  onPrimary: Color(0xff94bdec), // foreground
+                  primary: Color(0xff4d8bd0), // background
+                  onPrimary: Color(0xffc3dfff), // foreground
                 ),
                 onPressed: () {
                   Navigator.pushNamed(context, "/pantalla3");
