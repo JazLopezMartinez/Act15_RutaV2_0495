@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lopez0495/pantalla1_0495.dart';
 import 'package:lopez0495/pantalla2_0495.dart';
+import 'package:lopez0495/pantalla3_0495.dart';
 import 'package:lopez0495/pantallaini_0495.dart';
 
 void main() => runApp(const MiApp0495());
@@ -17,6 +18,7 @@ class MiApp0495 extends StatelessWidget {
         "/": (context) => const Pantallainicio_0495(),
         "/pantalla1": (context) => const Pantalla1_0495(),
         "/pantalla2": (context) => const Pantalla2_0495(),
+        "/pantalla3": (context) => const Pantalla3_0495(),
       }, //Fin ruta paginas
     ); //fin material
   }

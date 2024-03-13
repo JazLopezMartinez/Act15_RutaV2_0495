@@ -8,26 +8,20 @@ class Pantalla2_0495 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Pantalla2 Lopez_0495"),
-        backgroundColor: Colors.purple,
+        backgroundColor: Color(0xff21c129),
       ),
       body: Center(
         child: Container(
-          color: Colors.purple,
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Colors.purpleAccent,
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Lopez Ejemplo',
-                style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.purple,
-                ),
-              ),
-            ),
+          color: Color(0xff7536ec),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Lopez Ejemplo version 2',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),

@@ -8,7 +8,7 @@ class Pantallainicio_0495 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("PaginaInicial Lopez_0495"),
-        backgroundColor: Colors.pink,
+        backgroundColor: Color(0xffffa6ea),
       ),
       body: Center(
         child: Column(
@@ -16,8 +16,8 @@ class Pantallainicio_0495 extends StatelessWidget {
           children: [
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Color(0xff28a93d), // background
-                  onPrimary: Color(0xffaaffbd), // foreground
+                  primary: Color(0xff771a9d), // background
+                  onPrimary: Color(0xffd2b6ff), // foreground
                 ),
                 onPressed: () {
                   Navigator.pushNamed(context, "/pantalla1");
@@ -25,13 +25,22 @@ class Pantallainicio_0495 extends StatelessWidget {
                 child: const Text("Ejemplo Card")),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Color(0xff771a9d), // background
-                  onPrimary: Color(0xffd2b6ff), // foreground
+                  primary: Color(0xff28a93d), // background
+                  onPrimary: Color(0xffaaffbd), // foreground
                 ),
                 onPressed: () {
                   Navigator.pushNamed(context, "/pantalla2");
                 },
-                child: const Text("Ir a la segunda pantalla"))
+                child: const Text("Ir a la segunda pantalla")),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  primary: Color(0xff2b6bb5), // background
+                  onPrimary: Color(0xff94bdec), // foreground
+                ),
+                onPressed: () {
+                  Navigator.pushNamed(context, "/pantalla3");
+                },
+                child: const Text("Ir a la tercera pantalla"))
           ],
         ),
       ),
